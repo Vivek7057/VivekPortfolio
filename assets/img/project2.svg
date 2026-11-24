@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="purpleGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg2)"/>
+  <rect x="50" y="50" width="700" height="400" rx="12" fill="#1e1b4b" stroke="#3730a3" stroke-width="2"/>
+  <path d="M 50 62 A 12 12 0 0 1 62 50 L 738 50 A 12 12 0 0 1 750 62 L 750 90 L 50 90 Z" fill="#0f172a"/>
+  <circle cx="80" cy="70" r="6" fill="#ef4444"/>
+  <circle cx="100" cy="70" r="6" fill="#f59e0b"/>
+  <circle cx="120" cy="70" r="6" fill="#10b981"/>
+  <!-- AI Dashboard UI -->
+  <rect x="80" y="110" width="160" height="310" rx="10" fill="#312e81"/>
+  <rect x="260" y="110" width="460" height="180" rx="10" fill="url(#purpleGlow)" opacity="0.9"/>
+  <rect x="260" y="310" width="220" height="110" rx="10" fill="#312e81"/>
+  <rect x="500" y="310" width="220" height="110" rx="10" fill="#312e81"/>
+  <circle cx="490" cy="200" r="40" fill="#ffffff" opacity="0.2"/>
+  <path d="M 300 230 Q 380 150 460 210 T 620 170" fill="none" stroke="#ffffff" stroke-width="4"/>
+</svg>

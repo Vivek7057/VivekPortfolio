@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg5)"/>
+  <rect x="50" y="50" width="700" height="400" rx="12" fill="#18181b" stroke="#06b6d4" stroke-width="2"/>
+  <path d="M 50 62 A 12 12 0 0 1 62 50 L 738 50 A 12 12 0 0 1 750 62 L 750 90 L 50 90 Z" fill="#09090b"/>
+  <circle cx="80" cy="70" r="6" fill="#ef4444"/>
+  <circle cx="100" cy="70" r="6" fill="#f59e0b"/>
+  <circle cx="120" cy="70" r="6" fill="#10b981"/>
+  <!-- Terminal code layout -->
+  <text x="80" y="140" fill="#06b6d4" font-family="monospace" font-size="20">POST /api/v1/auth/login 200 OK</text>
+  <text x="80" y="180" fill="#22c55e" font-family="monospace" font-size="18">{ "status": "success", "token": "jwt.ey... " }</text>
+  <text x="80" y="230" fill="#06b6d4" font-family="monospace" font-size="20">GET /api/v1/tasks?status=active 200 OK</text>
+  <text x="80" y="270" fill="#eab308" font-family="monospace" font-size="18">[ { "id": 101, "title": "Deploy API to Cloud" } ]</text>
+  <rect x="80" y="320" width="640" height="100" rx="8" fill="#27272a"/>
+  <text x="100" y="360" fill="#a1a1aa" font-family="monospace" font-size="16">$ docker-compose up --build -d database server</text>
+  <text x="100" y="390" fill="#22c55e" font-family="monospace" font-size="16">✔ Container postgres_db Started</text>
+</svg>
